@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    font-family: 'Arial', sans-serif;
+}
+
+.login-container {
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 3rem;
+    color: #fff;
+}
+
+/* Neon Effect */
+.neon-text {
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #f0f, 0 0 20px #f0f, 0 0 30px #f0f, 0 0 40px #f0f, 0 0 50px #f0f, 0 0 75px #f0f;
+}
+
+.input-box {
+    margin: 15px 0;
+    text-align: left;
+}
+
+.input-box label {
+    display: block;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    background-color: #222;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    box-shadow: 0 0 10px rgba(240, 0, 240, 0.3);
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 15px rgba(240, 0, 240, 0.5);
+}
+
+.neon-button {
+    margin-top: 20px;
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #f0f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0 0 5px #f0f, 0 0 10px #f0f, 0 0 20px #f0f, 0 0 30px #f0f;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.neon-button:hover {
+    box-shadow: 0 0 10px #f0f, 0 0 20px #f0f, 0 0 40px #f0f, 0 0 50px #f0f;
+}

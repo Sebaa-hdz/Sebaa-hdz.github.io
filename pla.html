@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pla.css">
+    <title>Tienda de Playeras</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo de la tienda">
+        </div>
+        <div class="busqueda">
+            <input type="text" id="searchInput" placeholder="Buscar playeras...">
+            <button id="searchButton">Buscar</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="in.html">inicio</a></li>
+                <li><a href="#">Mis Compras</a></li>
+                <li><a href="#">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="imagen-fondo">
+            <h1>Bienvenido a la Tienda de Playeras</h1>
+        </div>
+        <div class="productos">
+            <div class="product-card-container">
+                <div class="product-card">
+                    <img src="img/playera1.jpg" alt="Playera 1">
+                    <h2>Playera de Algodón</h2>
+                    <p>Tamaño: S, M, L</p>
+                    <button onclick="addToCart('Playera de Algodón')">Agregar al Carrito</button>
+                    <button onclick="readMore('playera1.html')">Leer Más</button>
+                </div>
+                <div class="product-card">
+                    <img src="img/playera2.jpg" alt="Playera 2">
+                    <h2>Playera Deportiva</h2>
+                    <p>Tamaño: M, L, XL</p>
+                    <button onclick="addToCart('Playera Deportiva')">Agregar al Carrito</button>
+                    <button onclick="readMore('playera2.html')">Leer Más</button>
+                </div>
+                <div class="product-card">
+                    <img src="img/playera3.jpg" alt="Playera 3">
+                    <h2>Playera de Manga Larga</h2>
+                    <p>Tamaño: S, M, L</p>
+                    <button onclick="addToCart('Playera de Manga Larga')">Agregar al Carrito</button>
+                    <button onclick="readMore('playera3.html')">Leer Más</button>
+                </div>
+                <div class="product-card">
+                    <img src="img/playera4.jpg" alt="Playera 4">
+                    <h2>Playera Estampada</h2>
+                    <p>Tamaño: M, L</p>
+                    <button onclick="addToCart('Playera Estampada')">Agregar al Carrito</button>
+                    <button onclick="readMore('playera4.html')">Leer Más</button>
+                </div>
+                <div class="product-card">
+                    <img src="img/playera5.jpg" alt="Playera 5">
+                    <h2>Playera de Cuello V</h2>
+                    <p>Tamaño: S, M, L</p>
+                    <button onclick="addToCart('Playera de Cuello V')">Agregar al Carrito</button>
+                    <button onclick="readMore('playera5.html')">Leer Más</button>
+                </div>
+                <div class="product-card">
+                    <img src="img/playera6.jpg" alt="Playera 6">
+                    <h2>Playera Básica</h2>
+                    <p>Tamaño: S, M, L, XL</p>
+                    <button onclick="addToCart('Playera Básica')">Agregar al Carrito</button>
+                    <button onclick="readMore('playera6.html')">Leer Más</button>
+                </div>
+                <div class="product-card">
+                    <img src="img/playera7.jpg" alt="Playera 7">
+                    <h2>Playera de Rayas</h2>
+                    <p>Tamaño: M, L</p>
+                    <button onclick="addToCart('Playera de Rayas')">Agregar al Carrito</button>
+                    <button onclick="readMore('playera7.html')">Leer Más</button>
+                </div>
+                <div class="product-card">
+                    <img src="img/player a8.jpg" alt="Playera 8">
+                    <h2>Playera de Punto</h2>
+                    <p>Tamaño: S, M, L</p>
+                    <button onclick="addToCart('Playera de Punto')">Agregar al Carrito</button>
+                    <button onclick="readMore('playera8.html')">Leer Más</button>
+                </div>
+                <div class="product-card">
+                    <img src="img/playera9.jpg" alt="Playera 9">
+                    <h2>Playera de Diseño</h2>
+                    <p>Tamaño: M, L, XL</p>
+                    <button onclick="addToCart('Playera de Diseño')">Agregar al Carrito</button>
+                    <button onclick="readMore('playera9.html')">Leer Más</button>
+                </div>
+                <div class="product-card">
+                    <img src="img/playera10.jpg" alt="Playera 10">
+                    <h2>Playera de Manga Corta</h2>
+                    <p>Tamaño: S, M, L</p>
+                    <button onclick="addToCart('Playera de Manga Corta')">Agregar al Carrito</button>
+                    <button onclick="readMore('playera10.html')">Leer Más</button>
+                </div>
+                <div class="product-card">
+                    <img src="img/playera11.jpg" alt="Playera 11">
+                    <h2>Playera de Cuello Redondo</h2>
+                    <p>Tamaño: M, L</p>
+                    <button onclick="addToCart('Playera de Cuello Redondo')">Agregar al Carrito</button>
+                    <button onclick="readMore('playera11.html')">Leer Más</button>
+                </div>
+                <div class="product-card">
+                    <img src="img/playera12.jpg" alt="Playera 12">
+                    <h2>Playera de Estampado</h2>
+                    <p>Tamaño: S, M, L</p>
+                    <button onclick="addToCart('Playera de Estampado')">Agregar al Carrito</button>
+                    <button onclick="readMore('playera12.html')">Leer Más</button>
+                </div>
+                <div class="product-card">
+                    <img src="img/playera13.jpg" alt="Playera 13">
+                    <h2>Playera de Diseño Especial</h2>
+                    <p>Tamaño: M, L, XL</p>
+                    <button onclick="addToCart('Playera de Diseño Especial')">Agregar al Carrito</button>
+                    <button onclick="readMore('playera13.html')">Leer Más</button>
+                </div>
+                <div class="product-card">
+                    <img src="img/playera14.jpg" alt="Playera 14">
+                    <h2>Playera de Cuello Cuadrado</h2>
+                    <p>Tamaño: S, M, L</p>
+                    <button onclick="addToCart('Playera de Cuello Cuadrado')">Agregar al Carrito</button>
+                    <button onclick="readMore('playera14.html')">Leer Más</button>
+                </div>
+                <div class="product-card">
+                    <img src="img/playera15.jpg" alt="Playera 15">
+                    <h2>Playera de Rayas Horizontales</h2>
+                    <p>Tamaño: M, L</p>
+                    <button onclick="addToCart('Playera de Rayas Horizontales')">Agregar al Carrito</button>
+                    <button onclick="readMore('playera15.html')">Leer Más</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+         <!-- Chat en línea -->
+    <div id="chat">
+        <button onclick="toggleChat()">💬 Ayuda</button>
+        <div id="chatbox" class="hidden">
+            <h3>¿En qué podemos ayudarte?</h3>
+            <input type="text" placeholder="Escribe tu mensaje aquí...">
+            <button>Enviar</button>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-section">
+            <h3>Soporte</h3>
+            <ul>
+                <li><a href="ayuda.html">Ayuda</a></li>
+                <li><a href="mis-compras.html">Mis Compras</a></li>
+                <li><a href="mailto:luizbekam@gmail.com">Correo</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Servicios</h3>
+            <ul>
+                <li><a href="ter.html">Termos</a></li>
+                <li><a href="pla.html">Playeras</a></li>
+                <li><a href="esp.html">Espinilleras</a></li>
+                <li><a href="tiempo-aire.html">Tiempo Aire</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Acerca de Morales</h3>
+            <ul>
+                <li><a href="fond.html">¿Quiénes Somos?</a></li>
+                <li><a href="prin.html">Agencia de Viajes</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="pla.js"></script>
+</body>
+</html>

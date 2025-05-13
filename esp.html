@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="esp.css">
+    <title>Tienda de Espinilleras</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo de la tienda">
+        </div>
+        <div class="busqueda">
+            <input type="text" id="searchInput" placeholder="Buscar espinilleras...">
+            <button id="searchButton">Buscar</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="in.html">inicio</a></li>
+                <li><a href="#">Mis Compras</a></li>
+                <li><a href="#">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="imagen-fondo">
+            <h1>Bienvenido a la Tienda de Espinilleras</h1>
+        </div>
+        <div class="productos">
+            <div class="product-card-container">
+                <div class="product-card">
+                    <img src="img/espinillera1.jpg" alt="Espinillera 1">
+                    <h2>Espinillera de Plástico</h2>
+                    <p>Tamaño: S, M, L</p>
+                    <button onclick="addToCart('Espinillera de Plástico')">Agregar al Carrito</button>
+                    <button onclick="readMore('espinillera1.html')">Leer Más</button>
+                </div>
+                <div class="product-card">
+                    <img src="img/espinillera2.jpg" alt="Espinillera 2">
+                    <h2>Espinillera de Espuma</h2>
+                    <p>Tamaño: M, L</p>
+                    <button onclick="addToCart('Espinillera de Espuma')">Agregar al Carrito</button>
+                    <button onclick="readMore('espinillera2.html')">Leer Más</button>
+                </div>
+                <div class="product-card">
+                    <img src="img/espinillera3.jpg" alt="Espinillera 3">
+                    <h2>Espinillera Ajustable</h2>
+                    <p>Tamaño: S, M</p>
+                    <button onclick="addToCart('Espinillera Ajustable')">Agregar al Carrito</button>
+                    <button onclick="readMore('espinillera3.html')">Leer Más</button>
+                </div>
+                <div class="product-card">
+                    <img src="img/espinillera4.jpg" alt="Espinillera 4">
+                    <h2>Espinillera con Soporte</h2>
+                    <p>Tamaño: M, L</p>
+                    <button onclick="addToCart('Espinillera con Soporte')">Agregar al Carrito</button>
+                    <button onclick="readMore('espinillera4.html')">Leer Más</button>
+                </div>
+                <div class="product-card">
+                    <img src="img/espinillera5.jpg" alt="Espinillera 5">
+                    <h2>Espinillera de Alta Densidad</h2>
+                    <p>Tamaño: S, M, L</p>
+                    <button onclick="addToCart('Espinillera de Alta Densidad')">Agregar al Carrito</button>
+                    <button onclick="readMore('espinillera5.html')">Leer Más</button>
+                </div>
+                <div class="product-card">
+                    <img src="img/espinillera6.jpg" alt="Espinillera 6">
+                    <h2>Espinillera de Gel</h2>
+                    <p>Tamaño: M, L</p>
+                    <button onclick="addToCart('Espinillera de Gel')">Agregar al Carrito</button>
+                    <button onclick="readMore('espinillera6.html')">Leer Más</button>
+                </div>
+                <div class="product-card">
+                    <img src="img/espinillera7.jpg" alt="Espinillera 7">
+                    <h2>Espinillera con Fijación</h2>
+                    <p>Tamaño: S, M</p>
+                    <button onclick="addToCart('Espinillera con Fijación')">Agregar al Carrito</button>
+                    <button onclick="readMore(' espinillera7.html')">Leer Más</button>
+                </div>
+                <div class="product-card">
+                    <img src="img/espinillera8.jpg" alt="Espinillera 8">
+                    <h2>Espinillera de Malla</h2>
+                    <p>Tamaño: M, L</p>
+                    <button onclick="addToCart('Espinillera de Malla')">Agregar al Carrito</button>
+                    <button onclick="readMore('espinillera8.html')">Leer Más</button>
+                </div>
+                <div class="product-card">
+                    <img src="img/espinillera9.jpg" alt="Espinillera 9">
+                    <h2>Espinillera con Soporte Lateral</h2>
+                    <p>Tamaño: S, M</p>
+                    <button onclick="addToCart('Espinillera con Soporte Lateral')">Agregar al Carrito</button>
+                    <button onclick="readMore('espinillera9.html')">Leer Más</button>
+                </div>
+                <div class="product-card">
+                    <img src="img/espinillera10.jpg" alt="Espinillera 10">
+                    <h2>Espinillera de Neopreno</h2>
+                    <p>Tamaño: M, L</p>
+                    <button onclick="addToCart('Espinillera de Neopreno')">Agregar al Carrito</button>
+                    <button onclick="readMore('espinillera10.html')">Leer Más</button>
+                </div>
+                <div class="product-card">
+                    <img src="img/espinillera11.jpg" alt="Espinillera 11">
+                    <h2>Espinillera con Fijación Adicional</h2>
+                    <p>Tamaño: S, M</p>
+                    <button onclick="addToCart('Espinillera con Fijación Adicional')">Agregar al Carrito</button>
+                    <button onclick="readMore('espinillera11.html')">Leer Más</button>
+                </div>
+                <div class="product-card">
+                    <img src="img/espinillera12.jpg" alt="Espinillera 12">
+                    <h2>Espinillera de Alta Calidad</h2>
+                    <p>Tamaño: M, L</p>
+                    <button onclick="addToCart('Espinillera de Alta Calidad')">Agregar al Carrito</button>
+                    <button onclick="readMore('espinillera12.html')">Leer Más</button>
+                </div>
+                <div class="product-card">
+                    <img src="img/espinillera13.jpg" alt="Espinillera 13">
+                    <h2>Espinillera con Soporte de Gel</h2>
+                    <p>Tamaño: S, M</p>
+                    <button onclick="addToCart('Espinillera con Soporte de Gel')">Agregar al Carrito</button>
+                    <button onclick="readMore('espinillera13.html')">Leer Más</button>
+                </div>
+                <div class="product-card">
+                    <img src="img/espinillera14.jpg" alt="Espinillera 14">
+                    <h2>Espinillera de Malla Fina</h2>
+                    <p>Tamaño: M, L</p>
+                    <button onclick="addToCart('Espinillera de Malla Fina')">Agregar al Carrito</button>
+                    <button onclick="readMore('espinillera14.html')">Leer Más</button>
+                </div>
+                <div class="product-card">
+                    <img src="img/espinillera15.jpg" alt="Espinillera 15">
+                    <h2>Espinillera con Soporte de Espuma</h2>
+                    <p>Tamaño: S, M</p>
+                    <button onclick="addToCart('Espinillera con Soporte de Espuma')">Agregar al Carrito</button>
+                    <button onclick="readMore('espinillera15.html')">Leer Más</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-section">
+            <h3>Soporte</h3>
+            <ul>
+                <li><a href="ayuda.html">Ayuda</a></li>
+                <li><a href="mis-compras.html">Mis Compras</a></li>
+                <li><a href="mailto:luizbekam@gmail.com">Correo</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Servicios</h3>
+            <ul>
+                <li><a href="ter.html">Termos</a></li>
+                <li><a href="pla.html">Playeras</a></li>
+                <li><a href="esp.html">Espinilleras</a></li>
+                <li><a href="tiempo-aire.html">Tiempo Aire</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Acerca de Morales</h3>
+            <ul>
+                <li><a href="fond.html">¿Quiénes Somos?</a></li>
+                <li><a href="prin.html">Agencia de Viajes</a></li>
+            </ul>
+        </div>
+       
+    </footer>
+
+    <script src="esp.js"></script>
+</body>
+</html>
